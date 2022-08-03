@@ -1,8 +1,8 @@
-{% for family_member in familia %}
+{% for f in family_member %}
 
-<h1>El nombre de mi familiar es {{family_member.name}}</h1>
-<h2>La edad de mi familiar es {{family_member.age}}</h2>
-<h2>El hobby de mi familiar es {{family_member.hobbies}}</h2>
-<h2>Mi familiar nació en el año {{family_member.birthday}}</h2>
+<h1>El nombre de mi familiar es {{f.name}}</h1>
+<h2>La edad de mi familiar es {{f.age}}</h2>
+<h2>El hobby de mi familiar es {{f.hobbies}}</h2>
+<h2>Mi familiar nació en el año {{f.birthday}}</h2>
 
 {% endfor %} 
